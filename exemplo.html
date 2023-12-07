@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <form>
+        <input type="hidden" id="indice" value="">
+        <label for="titulo">Título</label>
+        <input type="text" id="titulo" placeholder="Título">
+
+        <fieldset>
+            <legend>Autores</legend>
+            <input class="autor" placeholder="Autor">
+            <input type="button" id="btAdicionarInputAutor" value="+">
+        </fieldset>
+        <label for="ano">Ano</label>
+        <input type="text" id="ano" placeholder="Ano">
+        <label for="preco">Preço</label>
+        <input type="text" id="preco" placeholder="Preço">
+        <input type="submit" value="Inserir" id="btInserir">
+    </form>
+    <table>
+        <thead>
+            <tr>
+                <th>Título</th>
+                <th>Autor</th>
+                <th>Ano</th>
+                <th>Preço</th>
+                <th>Deletar</th>
+                <th>Editar</th>
+            </tr>
+        </thead>
+        <tbody></tbody>
+    </table>
+    <script src="codigo.js"></script>
+</body>
+</html>

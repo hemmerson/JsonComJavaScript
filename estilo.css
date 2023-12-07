@@ -1,0 +1,16 @@
+form,table,th,td{
+    border: solid 1px black;
+    border-collapse: collapse;
+}
+form{
+    padding: 1em;
+    margin-bottom: 1em;
+}
+form input{
+    margin-bottom: 5px;
+    display:block;
+}
+form fieldset div input{
+    display: inline-block;
+    margin-right: 5px;
+}
